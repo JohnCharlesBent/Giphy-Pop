@@ -1,0 +1,58 @@
+.giphy_search_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+}
+.giphy_search_wrapper input#search_giphy {
+  min-width: 80% !important;
+  height: 35px;
+  padding: 0.5em;
+  margin-right: 5px;
+}
+.giphy_search_wrapper input[type=submit] {
+  text-transform: capitalize;
+  width: 18%;
+  height: 35px;
+  margin-left: auto;
+}
+
+#giphy_search_results ul.results li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+  border-bottom: solid 1px #2271b1;
+}
+#giphy_search_results ul.results li .giphy-result {
+  max-width: 300px;
+  width: 50%;
+}
+#giphy_search_results ul.results li .giphy-result img {
+  width: 100%;
+  min-width: 100%;
+}
+#giphy_search_results ul.results li .buttons {
+  margin-left: auto;
+}
+#giphy_search_results ul.results li .buttons .copy-gif {
+  min-width: 300px;
+  padding: 0.5em 1em;
+  border-radius: 26px;
+}
+#giphy_search_results ul.results li .buttons .copy-gif.gif-copied:disabled {
+  background: green !important;
+  border: solid 1px green !important;
+  color: white !important;
+  cursor: none;
+}
+
+#giphy_search_results header.search-results-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+#giphy_search_results header.search-results-header button {
+  margin-left: 0.5rem;
+}
