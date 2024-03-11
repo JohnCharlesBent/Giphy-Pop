@@ -1,4 +1,3 @@
-alert('test');
 const giphy_search = () => {
     const t = document.querySelector('input[name="giphy_search_query"]');
     t && document.querySelector('input[name="giphy_search_submit"]').addEventListener("click", e => {

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: UW Giphy Pop
+Plugin Name: Giphy Pop
 Plugin URI: https://git.doit.wisc.edu/
 Description: A WordPress plugin for adding gifs from Giphy into posts and pages.
 Author: UW-Madison
